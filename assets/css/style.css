@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;700&family=Roboto:wght@100;500&display=swap');
+
+
+/* Variaveis    */
+:root {
+    --background-body: #FFF9E7;
+    --background-nav: #3A53E3;
+    --backgrounde-footer: #000000;
+    --sombra: grey;
+
+
+    /* Fontes   */
+
+    --fonte-cursive: "lato", cursive;
+    --fonte-normal: "lato", Roboto;
+
+
+
+
+}
+
+
+
+/* Reset */
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: var(--background-body);
+}
+
+
+nav {
+    margin: 0 auto;
+    width: 80vw;
+    background-color: var(--background-nav);
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 2.25rem 1.5rem;
+    box-shadow: 2px 2px 5px var(--sombra);
+}
+
+
+nav a {
+
+    color: white;
+
+}
+
+
+
+
+
+.icone {
+
+    width: 5rem;
+    padding-left: 1rem;
+
+}
+
+
+
+
+
+
+
+#sobre {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #F8CD53;
+    border-radius: 16px;
+    gap: 20px;
+
+}
+
+.foto {
+
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px var(--sombra);
+}
+
+
+main {
+
+    width: 80vw;
+    margin: 0 auto;
+
+}
+
+#video {
+
+    font-family: 'lato', Roboto;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+
+#meuvideo {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 2rem;
+
+}
+
+#videoyotube {
+
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 16px;
+
+}
+
+
+
+
+
+footer {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 80vw;
+    text-align: center;
+    background-color: black;
+
+}
+
+
+
+
+
+
+
+/* Paragrafo  */
+
+p {
+    font-family: 'lato', Roboto;
+    margin-bottom: 1.5rem;
+
+}
+
+/*  Titulos  e Itens  */
+
+h1,
+h2,
+h3,
+a {
+    font-family: 'lato', cursive;
+    letter-spacing: 3px;
+    font-weight: 800;
+    color: var(--backgrounde-footer);
+}
+
+h2 {
+    font-size: 2rem;
+
+}
+
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+
+
+h2,
+h3 {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: left;
+}
+
+
+
+
+
+
+.logo {
+
+    display: flex;
+    width: 20%;
+    justify-content: left;
+    position: relative;
+    align-items: center;
+
+}
+
+
+
+.titulo {
+
+    font-family: 'lato', cursive;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
+    font-weight: 800;
+}
+
+ul {
+    list-style: none;
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    font-size: 24px;
+}
+
+
+
+
+footer {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 80vw;
+    text-align: center;
+    background-color: black;
+
+}
+
+/* ICONES DO FOOTER  */
+
+.icons {
+
+    width: 3%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+/* O COPY  */
+
+.by {
+
+    color: #F8CD53;
+    font-size: 16px;
+    font-family: 'lato', Roboto;
+
+
+
+}
+
+
+
+
+
+                                    /* ESTILIZAR O FORMULARIO*/
+
+
+/* Linha  */       
+
+hr {
+
+    margin: 1rem;
+
+}
+
+
+
+
+
+label {
+
+    font-family: 'lato', Roboto;
+    color: black;
+    font-size: 1rem;
+
+
+}
+
+
+
+input,
+textarea,
+button {
+
+    font-family: 'lato', Roboto;
+    width: 100%;
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 8px;
+    color: black;
+
+}
+
+button {
+
+    font-family: 'lato', Roboto;
+    background-color: var(--background-nav);
+    font-weight: 800;
+    color: white;
+    font-size: 1.25rem;
+}
+
+button:hover {
+
+    background-color: navy;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: var(--background-nav)
+}
+
+
+
+

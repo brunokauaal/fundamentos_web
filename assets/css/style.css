@@ -10,6 +10,10 @@
     --blue: #191970;
 }
 
+
+@media (max-witdh: 1000px){}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -150,7 +154,12 @@ main {
 #secion {
     margin-bottom: 2rem;
 
+
 }
+
+
+
+
 
 .video {
     width: 60vw;
@@ -264,3 +273,5 @@ button:hover {
 .campos-form {
     margin-bottom: 1rem;
 }
+
+

@@ -34,12 +34,14 @@
             <h2>Contato</h2>
             <div class="campos-form">
                 <label for="nome">Nome:</label>
-                <input id="nome" type="text" placeholder="Insira o seu nome completo "> </input>
+                <input onkeyup="validarNome()" id="nome" type="text" placeholder="Insira o seu nome completo" />
                 <div id="txtNome"> </div>
+            </div>
+            
             </div>
             <div class="campos-form">
                 <label for="email">Email</label>
-                <input id="email" type="text" placeholder="Insira o seu e-mail "> </input>
+                <input onkeyup= "validarEmailRegeEx()" id="email" type="text" placeholder="Insira o seu e-mail "> </input>
                 <div id="txtEmail"> </div>
             </div>
             <div  class="campos-form" >
@@ -47,7 +49,7 @@
                 <textarea id="mensagem" type="text" rows="8" placeholder="Insira a sua mensagem "></textarea>
                 <div id="txtmensagem"> </div>
             </div>
-                <button type="button"> 
+                <button onclick="enviarFormulario()" type="button"> 
                     Enviar
                  </button>
             </form> 
@@ -62,11 +64,11 @@
                     <input id="endereço" type="text" placeholder="Digite o número do  CEP "> </input>
                     <div id="txtEndereço"> </div>
                 </div>
-                <button type="button">Consultar </button>
+                <button onclick="consultarCep()" type="button">Consultar</button>
                 <hr>
                 <div class="campos-form">
                     <label for="mensagemdeendereço">Endereço</label>
-                    <textarea id="mensagemdeendereço" type="text" rows="8" placeholder="Busca CEP..."></textarea>
+                    <textarea id="cep" type="text" rows="8" placeholder="Busca CEP..."></textarea>
                     <div id="txtMensagemdeendereço"> </div>
                 </div>
                 </form> 
@@ -102,8 +104,8 @@
         <p class="by">Desenvolvido por Bruno Kauã - 2023 &copy;</p>
 
     </footer>
+    <script src="./assets/js/script.js"></script>
 
-
-
+    
 </body>
 </html>

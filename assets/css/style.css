@@ -4,10 +4,11 @@
 /*Definição das Variáveis do CSS*/
 :root {
     /*Cores de Fundo (Background)*/
-    --background-page: #FFF9E7;
+    --background-page:  rgb(113, 169, 201);
     --background-nav: #3A53E3;
     --background-sobre: #F8CD53;
     --background-footer: #29282B;
+    --background-newsobre: ##FFFFFF;
 
     /* Cores das Fontes (texto) */
     --cor-fonte-padrao: #000000;
@@ -150,7 +151,8 @@ nav a,
 
 /* Define configurações específicas da classe icone */
 .icone {
-    width: 7rem;
+    width: 5rem;
+    display: flex;
     padding-left: 1rem;
 }
 
@@ -177,8 +179,8 @@ main {
  #sobre {
     display: flex;
     align-items: center;
-    padding-right: 1.5rem;
-    background-color: var(--background-sobre);
+    padding: 20px;
+    background-color: rgb(211, 199, 199);
     border-radius: 1rem;
     text-align: justify;    
 }
